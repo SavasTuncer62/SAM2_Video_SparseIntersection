@@ -1,0 +1,16 @@
+# Google Colab (Python 3, PyTorch with CUDA preinstalled)
+torch
+segmentation_models_pytorch==0.5.0
+opencv-python-headless
+pillow
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+# SAM2: pip install -e from https://github.com/facebookresearch/sam2
+#       (checkpoints sam2.1_hiera_small.pt and sam2.1_hiera_base_plus.pt)
+# Optional, only for notebooks/additional_analyses/A2_sparsification_on_open_dense_ct.ipynb
+# nibabel
+# huggingface_hub
+# scikit-image
